@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="background">
-      <div className="container">
+      <div className="container overall">
         <MainBlock />
         <CitiesBlock />
       </div>

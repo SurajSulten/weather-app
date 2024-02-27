@@ -1,0 +1,36 @@
+.container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: 800px 640px;
+    padding: 40px 60px 100px 60px;
+}
+.title {
+    color: #fff;
+}
+.cityData {
+    display: flex;
+    align-items: center;
+}
+.celsiusNumber {
+    font-size: 100px;
+    color: #fff;
+    margin-right: 50px;
+}
+.cityInfo {
+    display: flex;
+    color: #fff;
+    max-width: 270px;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    /* gap: 10px; */
+}
+.cityName {
+    font-size: 60px;
+}
+.weatherType {
+    color: #fff;
+    font-size: 18px;
+}

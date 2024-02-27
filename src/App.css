@@ -38,6 +38,10 @@ h5 {
 }
 .background {
   background: linear-gradient(to bottom, #2fa5ed, #b5d3f9, #ebeefb);
-
+  background-position: center;
   width: 100%;
+  padding: 20px 0;
+}
+.overall {
+  display: flex;
 }
