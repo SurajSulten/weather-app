@@ -36,3 +36,8 @@ h5 {
   padding: 0 10px;
   margin: auto;
 }
+.background {
+  background: linear-gradient(to bottom, #2fa5ed, #b5d3f9, #ebeefb);
+
+  width: 100%;
+}

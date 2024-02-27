@@ -1,8 +1,9 @@
 
-
 const CitiesBlock = () => {
   return (
-    <div>CitiesBlock</div>
+    <div>
+      
+    </div>
   )
 }
 
