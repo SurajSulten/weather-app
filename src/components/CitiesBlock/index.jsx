@@ -58,7 +58,7 @@ const CitiesBlock = () => {
         <ul className={styles.weatherData}>
           <li className={styles.weatherItem}>
             <p className={styles.textStyle}>Cloudy</p>
-            <p className={styles.weatherInfo}>{}%</p>
+            <p className={styles.weatherInfo}>{data?.clouds.all}%</p>
           </li>
           <li className={styles.weatherItem}>
             <p className={styles.textStyle}>Humidity</p>
@@ -70,7 +70,7 @@ const CitiesBlock = () => {
           </li>
           <li className={styles.weatherItem}>
             <p className={styles.textStyle}>Rain</p>
-            <p className={styles.weatherInfo}>{}mm</p>
+            <p className={styles.weatherInfo}>{0}mm</p>
           </li>
         </ul>
       </div>
