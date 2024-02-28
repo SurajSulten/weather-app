@@ -1,6 +1,6 @@
 .container {
     background-color: #6c91a8;
-    width: 400px;
+    max-width: 400px;
     padding: 40px 60px;
     position: relative;
 }
@@ -61,4 +61,37 @@
     width: 80px;
     height: 80px;
     cursor: pointer;
+}
+@media screen and (max-width: 850px) {
+    .container {
+        display: flex;
+        max-width: 800px;
+        justify-content: space-between;
+    }
+    .detailsSection {
+        width: 200px;
+        margin-left: 50px;
+    }
+    .weatherData {
+        border-bottom: none;
+    }
+    .cityList {
+        border-bottom: none;
+        
+    }
+    .citySection {
+        position: relative;
+    }
+    .searchButton {
+        width: 40px;
+        height: 40px;
+    }
+  }
+@media screen and (max-width: 560px) {
+    .container {
+      display: block;
+    }
+    .detailsSection {
+        margin-left: 0;
+    }
 }

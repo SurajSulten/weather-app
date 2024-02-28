@@ -18,6 +18,7 @@
     font-size: 100px;
     color: #fff;
     margin-right: 50px;
+    position: relative;
 }
 .cityInfo {
     display: flex;
@@ -33,4 +34,27 @@
 .weatherType {
     color: #fff;
     font-size: 18px;
+}
+.date {
+    display: flex;
+}
+.tempIcon {
+    position: absolute;
+    top: 15px;
+}
+@media screen and (max-width: 850px) {
+    .container {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 560px) {
+    .container {
+      width: 100%;
+    }
+    .celsiusNumber {
+        font-size: 70px;
+    }
+    .cityName {
+        font-size: 40px;
+    }
 }
